@@ -58,3 +58,23 @@ header{
 #initialSection{
     display: flex;
 }
+
+.explaboral{
+    display: flex;
+}
+
+#coca{
+    border-radius: 50%;
+    width: 10%;
+    margin:10px;
+}
+#up{border-radius: 50%;
+    width: 7%;
+    margin:5px;
+}
+
+#ibm{
+    border-radius: 90%;
+    width: 8%;
+    margin:5px;
+}
