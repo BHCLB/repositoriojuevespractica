@@ -78,3 +78,5 @@ header{
     width: 8%;
     margin:5px;
 }
+
+li{list-style: none }
