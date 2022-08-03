@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos.css">
+   
     <title>PortFolio</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <h2>GUILLERMO ALEJANDRO RODRIGUEZ</h2>
     </header>
     <section id="initialSection">
-         <img id="fotoPerfil" class="borde" src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="200px">
+         <img  class="borde fotoCircular" src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="200px">
 
         <div id="divDatosPersonales" class="borde">
             <p><span class="datosPersonales">Fecha de Nacimiento:</span><span>31 de Diciembre de XXXX</span></p>
@@ -38,45 +39,55 @@
     </section>
     <section>
         <h3>Antecedentes Laborales</h3>
-        <ul>
-            <li>
-                <section class="actual borde explaboral">
-                   <img id="coca" class="borde" src="./imagenes/coca.png" alt="" width="100px">
-                
-                <div class="actual">
-                    <h4>Coca Cola - 2018 al actual</h4>
-                    <p>
-                        Me desempeñé como control de calidad de las gaseosas
-                    </p>
-                </div>                 
-                </section>
+        <ul class="trabajos">
+            <li class="actual borde antecedentes">
 
+                        <div class="divImage">
+                            <img class="fotoCircular borde" src="./imagenes/coca.png" alt=""  width="100px">
+                        </div>
+                    
+                        <div class="divData">
+                            <h4>Coca Cola - 2018 al actual</h4>
+                            <p>
+                                Me desempeñé como control de calidad de las gaseosas
+                            </p>
+                        </div>                 
+                   
+                
 
             </li>
-            <li>
-                <section class="actual borde explaboral" >
-                   <img id="up" class="borde" src="./imagenes/upalermo.png" alt="" width="100px">
-                
-                <div >
-                    <h4>Universidad de Palermo - 2018 al actual</h4>
-                    <p>
-                        Me desempeñé como docente de Informática
-                    </p>
-                </div>                 
-                </section>
+            <li class="actual borde antecedentes">
 
+                        <div class="divImage">
+                            <img class="fotoCircular borde" src="./imagenes/upalermo.png" alt="" width="100px">
+                          
+                        </div>
+
+                    
+                        <div class="divData">
+                            <h4>Universidad de Palermo - 2018 al actual</h4>
+                            <p>
+                                Me desempeñé como docente de Informática
+                            </p>
+                        </div>                 
+
+                
 
             </li>
-            <li>
-                <section class="borde explaboral">
-                <img  id="ibm"class="borde" src="./imagenes/ibm.jpg" alt="" width="100px">
-                <div>
-                    <h4>IBM - 2015 al 2017</h4>
-                    <p>
-                        Encargado de Mantenimiento
-                    </p>
-                </div>
-               </section> 
+            <li class="actual borde antecedentes">
+
+                    <div class="divImage">
+                     <img class="fotoCircular borde" src="./imagenes/ibm.jpg" alt="" height="80px" width="80px">
+                       
+                    </div>
+                    <div class="divData">
+                        <h4>IBM - 2015 al 2017</h4>
+                        <p>
+                            Encargado de Mantenimiento
+                        </p>
+                    </div>                    
+
+
             </li>
 
         </ul>
