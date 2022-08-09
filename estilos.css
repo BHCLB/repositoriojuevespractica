@@ -60,6 +60,7 @@ header{
 #initialSection{
      display: flex;
      flex-wrap: wrap;
+     flex-direction: row;
     /* flex direction es row, si ni aclaro nada. indica que los elementos de línea los transforma en elemento de bloque
     el id inisitialsection es un contenedor*./
 }
@@ -139,3 +140,51 @@ li{list-style: none }
 .trabajos{
     display: flex
 } */
+@media screen and (max-width:998px) {
+
+    /* body{background-color: red;} */
+    #initialSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+     .fotoPerfil {
+         width: 120%;
+     }   
+
+     #divDatosPersonales p{
+         display:flex;
+         flex-direction: column;
+         align-items: center;
+         justify-items: center;
+         /* da el estilo a todos los p que están por debajo de #divDatosPersonales, no al contenedor */
+     } 
+
+     
+    
+        
+}
+@media screen and (max-width: 390px){
+    #divDatosPersonales{
+        display: none;
+
+    }
+    .estudios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .laborales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}
