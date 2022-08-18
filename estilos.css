@@ -19,7 +19,7 @@ header{
 }
 
 .borde{
-    border: solid white 1px;
+    border: 1px solid white;
     padding:10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -62,17 +62,17 @@ header{
      flex-wrap: wrap;
      flex-direction: row;
     /* flex direction es row, si ni aclaro nada. indica que los elementos de línea los transforma en elemento de bloque
-    el id inisitialsection es un contenedor*./
+    el id inisitialsection es un contenedor */
 }
 
-.trabajos{
+/*.trabajos{
     display: flex;
     flex-direction: row;
     /* indica si la orientación horizontal o vertical (columna) */
-    flex-wrap: wrap;
-    /* flex wrap: permite que se acomode según tamaño de la ventana */
-    
-}
+    /* flex-wrap: wrap; */
+    /* flex wrap: permite que se acomode según tamaño de la ventana 
+}*/    
+
 
 .antecedentes{
     display:flex;
